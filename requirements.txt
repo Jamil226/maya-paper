@@ -1,0 +1,9 @@
+streamlit
+pinecone
+langchain
+langgraph
+langgraph-groq
+langchain-pinecone
+langchain-community
+langchain-google-genai
+python-dotenv
