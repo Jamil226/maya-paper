@@ -1,0 +1,106 @@
+{
+    "hospital_name": "Kocaeli University Research and Application Hospital",
+    "native_name": "Kocaeli Üniversitesi Araştırma ve Uygulama Hastanesi",
+    "introduction": {
+        "summary": "A premier tertiary-level academic medical center and teaching hospital located in İzmit, Kocaeli. It serves as the primary health hub for the Marmara region and is recognized for its 'Research University' status.",
+        "architectural_feature": "The facility is a leader in seismic safety, constructed on 256 rubber seismic isolators designed to remain fully operational during a magnitude 9.0 earthquake.",
+        "bed_capacity": 804
+    },
+    "departments_and_specialties": {
+        "internal_medical_sciences": [
+            "Cardiology",
+            "Medical Oncology",
+            "Neurology",
+            "Chest Diseases",
+            "Gastroenterology",
+            "Endocrinology",
+            "Hematology",
+            "Nephrology",
+            "Rheumatology",
+            "Infectious Diseases",
+            "Physical Medicine and Rehabilitation",
+            "Psychiatry (Adult and Child)"
+        ],
+        "surgical_medical_sciences": [
+            "General Surgery",
+            "Cardiovascular Surgery",
+            "Neurosurgery",
+            "Orthopedics and Traumatology",
+            "Urology",
+            "Ophthalmology",
+            "Otorhinolaryngology (ENT)",
+            "Plastic and Reconstructive Surgery",
+            "Obstetrics and Gynecology"
+        ]
+    },
+    "emergency_department": {
+        "status": "Open 24/7",
+        "classification": "Level III Trauma Center",
+        "features": [
+            "Triage categorization (Red, Yellow, Green zones)",
+            "Dedicated Pediatric Emergency wing",
+            "Dedicated Adult Emergency wing",
+            "Direct integration with rooftop heliport for air-ambulance transfers"
+        ]
+    },
+    "diagnostics": {
+        "radiology_imaging": [
+            "3 Tesla MRI",
+            "128-slice Multislice CT",
+            "PET-CT (Oncology)",
+            "Digital Mammography",
+            "Scintigraphy"
+        ],
+        "laboratories": [
+            "Central Biochemistry Lab",
+            "Microbiology Lab",
+            "Immunology Lab",
+            "Molecular Biology and Genetic Diagnostic Center"
+        ]
+    },
+    "pharmacy": {
+        "internal_services": "In-patient unit-dose drug distribution",
+        "specialized_units": "Automated robotic chemotherapy preparation system",
+        "external_access": "Multiple 24-hour retail pharmacies located at the Umuttepe campus entrance"
+    },
+    "icu_and_surgical_facilities": {
+        "icu_beds_total": 67,
+        "icu_types": [
+            "Neonatal (NICU)",
+            "Pediatric (PICU)",
+            "Cardiovascular (CVS-ICU)",
+            "Coronary ICU",
+            "General Medical/Surgical ICU"
+        ],
+        "surgical_suites": {
+            "count": 13,
+            "technology": "Da Vinci Robotic Surgical System for minimally invasive procedures"
+        }
+    },
+    "location_and_access": {
+        "address": "Kocaeli Üniversitesi Umuttepe Yerleşkesi, 41380 İzmit/Kocaeli, Türkiye",
+        "parking": "Large-scale open-air parking lots within Umuttepe campus",
+        "accessibility": "Tactile paving, wheelchair ramps, and dedicated patient elevators",
+        "public_transport": "Accessible via Kocaeli Metropolitan Municipality bus lines (170, 175, 190, etc.)"
+    },
+    "insurance_and_billing": {
+        "government": "Social Security Institution (SGK) coverage",
+        "private": "Agreements with major domestic and international insurers",
+        "international": "Dedicated International Patient Department for medical tourism and foreign nationals"
+    },
+    "contact_info": {
+        "general_switchboard": "+90 262 303 75 75",
+        "chief_physician_office": "+90 262 303 70 02",
+        "appointment_system": "182 (National MHRS) or online portal",
+        "website": "http://hastane.kocaeli.edu.tr",
+        "email": "hastane@kocaeli.edu.tr"
+    },
+    "academic_and_research": {
+        "entities": [
+            "Clinical Research Ethics Committee",
+            "Technology Transfer Office (TTO)",
+            "Medical Simulation Center (SESAM)"
+        ],
+        "research_vision": "Integrated Phase II and Phase III clinical trial hub"
+    }
+}

@@ -1,0 +1,2459 @@
+[
+    {
+        "id": 1,
+        "name": "Prof. Dr. MURAT PEKDEMİR",
+        "designation": "Head of Department",
+        "department": "Emergency Medicine",
+        "email": "mpekdemir@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 04:00 PM"
+    },
+    {
+        "id": 2,
+        "name": "Prof. Dr. SERKAN YILMAZ",
+        "designation": "Professor",
+        "department": "Emergency Medicine",
+        "email": "serkanyilmaz@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 12:00 AM"
+    },
+    {
+        "id": 3,
+        "name": "Prof. Dr. NURETTİN ÖZGÜR DOĞAN",
+        "designation": "Professor",
+        "department": "Emergency Medicine",
+        "email": "ozgur.dogan@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 AM - 08:00 AM"
+    },
+    {
+        "id": 4,
+        "name": "Doç. Dr. ELİF YAKA",
+        "designation": "Associate Professor",
+        "department": "Emergency Medicine",
+        "email": "elif.yaka@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 04:00 PM"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Öğr. Üyesi ÖZLEM KÖKSAL",
+        "designation": "Assistant Professor",
+        "department": "Emergency Medicine",
+        "email": "ozlem.koksal@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 12:00 AM"
+    },
+    {
+        "id": 6,
+        "name": "Prof. Dr. İHSAN ANIK",
+        "designation": "Major Science Chairman",
+        "department": "Brain and Neurosurgery",
+        "email": "ihsan.anik@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 7,
+        "name": "Prof. Dr. SAVAŞ CEYLAN",
+        "designation": "Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "sceylan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 8,
+        "name": "Prof. Dr. VOLKAN ETUŞ",
+        "designation": "Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "volkanetus@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 9,
+        "name": "Doç. Dr. BURAK ÇABUK",
+        "designation": "Associate Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "burak.cabuk@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 10,
+        "name": "Doç. Dr. YAVUZ ARAS",
+        "designation": "Associate Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "yavuz.aras@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 11,
+        "name": "Dr. Öğr. Üyesi EMRAH AKAY",
+        "designation": "Assistant Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "emrah.akay@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 12,
+        "name": "Dr. Öğr. Üyesi ALPER ESENKAYA",
+        "designation": "Assistant Professor",
+        "department": "Brain and Neurosurgery",
+        "email": "alper.esenkaya@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 13,
+        "name": "Prof. Dr. NİHAT ZAFER UTKAN",
+        "designation": "Department Chair",
+        "department": "General Surgery",
+        "email": "zafer.utkan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 14,
+        "name": "Prof. Dr. SADULLAH GİRGİN",
+        "designation": "Professor",
+        "department": "General Surgery",
+        "email": "sgirgin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 15,
+        "name": "Prof. Dr. NİHAT ZAFER UTKAN",
+        "designation": "Professor",
+        "department": "General Surgery",
+        "email": "zafer.utkan@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 16,
+        "name": "Prof. Dr. TURGAY ŞİMŞEK",
+        "designation": "Professor",
+        "department": "General Surgery",
+        "email": "tsimsek@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 17,
+        "name": "Doç. Dr. SERCAN ERDOĞAN",
+        "designation": "Associate Professor",
+        "department": "General Surgery",
+        "email": "sercan.erdogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 18,
+        "name": "Doç. Dr. MEHMET VOLKAN DEMİRKAN",
+        "designation": "Associate Professor",
+        "department": "General Surgery",
+        "email": "volkan.demirkan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 19,
+        "name": "Dr. Öğr. Üyesi SAMET YARDIMCI",
+        "designation": "Assistant Professor",
+        "department": "General Surgery",
+        "email": "samet.yardimci@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 20,
+        "name": "Dr. Öğr. Üyesi CAN SEYHUN",
+        "designation": "Assistant Professor",
+        "department": "General Surgery",
+        "email": "can.seyhun@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 21,
+        "name": "Dr. Öğr. Üyesi DENİZ GÜZEY",
+        "designation": "Assistant Professor",
+        "department": "General Surgery",
+        "email": "deniz.guzey@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 22,
+        "name": "Prof. Dr. NURŞEN YÜKSEL",
+        "designation": "Head of Department",
+        "department": "Ophthalmology",
+        "email": "nursenyuksel@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 23,
+        "name": "Doç. Dr. LEVENT KARABAŞ",
+        "designation": "Associate Professor",
+        "department": "Ophthalmology",
+        "email": "lkarabas@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 24,
+        "name": "Doç. Dr. BERNA AKOVA HALKÇI",
+        "designation": "Associate Professor",
+        "department": "Ophthalmology",
+        "email": "berna.akova@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 25,
+        "name": "Dr. Öğr. Üyesi ÖMÜR GÜNEY ÖZDEMİR",
+        "designation": "Assistant Professor",
+        "department": "Ophthalmology",
+        "email": "omur.ozdemir@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 26,
+        "name": "Dr. Öğr. Üyesi MEHMET FATİH KÜÇÜK",
+        "designation": "Assistant Professor",
+        "department": "Ophthalmology",
+        "email": "fatih.kucuk@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 27,
+        "name": "Prof. Dr. ŞADAN YAVUZ",
+        "designation": "Head of Department",
+        "department": "Cardiovascular Surgery",
+        "email": "sadan.yavuz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 28,
+        "name": "Prof. Dr. MUZAFFER DEĞERTEKİN",
+        "designation": "Professor",
+        "department": "Cardiovascular Surgery",
+        "email": "m.degertekin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 29,
+        "name": "Doç. Dr. OĞUZ AYDIN",
+        "designation": "Associate Professor",
+        "department": "Cardiovascular Surgery",
+        "email": "oguz.aydin@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 30,
+        "name": "Doç. Dr. ERHAN KAYA",
+        "designation": "Associate Professor",
+        "department": "Cardiovascular Surgery",
+        "email": "erhan.kaya@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 31,
+        "name": "Dr. Öğr. Üyesi DENİZ DEMİR",
+        "designation": "Assistant Professor",
+        "department": "Cardiovascular Surgery",
+        "email": "deniz.demir@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 32,
+        "name": "Prof. Dr. KAYA MEMİŞOĞLU",
+        "designation": "Head of Department",
+        "department": "Orthopedics and Traumatology",
+        "email": "kayamemis@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 33,
+        "name": "Prof. Dr. CUMHUR CEVDET KESEMENLİ",
+        "designation": "Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "ckesemenli@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 34,
+        "name": "Prof. Dr. HAKAN ŞENRAN",
+        "designation": "Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "hsenran@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 35,
+        "name": "Doç. Dr. EMRE KARADENİZ",
+        "designation": "Associate Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "emre.karadeniz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 36,
+        "name": "Doç. Dr. ONUR OTUZBİR",
+        "designation": "Associate Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "onur.otuzbir@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 37,
+        "name": "Dr. Öğr. Üyesi VOLKAN KILINÇOĞLU",
+        "designation": "Assistant Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "volkan.kilincoglu@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 38,
+        "name": "Dr. Öğr. Üyesi SENCER TURAN",
+        "designation": "Assistant Professor",
+        "department": "Orthopedics and Traumatology",
+        "email": "sencer.turan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 39,
+        "name": "Prof. Dr. ARİFE DİLEK İÇLİ",
+        "designation": "Head of Department",
+        "department": "Anesthesiology and Reanimation",
+        "email": "dozdamar@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 40,
+        "name": "Prof. Dr. KAMİL TOKER",
+        "designation": "Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "ktoker@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 41,
+        "name": "Prof. Dr. TÜLAY HOSDERE",
+        "designation": "Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "tulayh@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 42,
+        "name": "Prof. Dr. MİNE SOLAK",
+        "designation": "Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "mines@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 43,
+        "name": "Prof. Dr. ZEHRA NUR BAYKARA",
+        "designation": "Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "nur.baykara@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 44,
+        "name": "Doç. Dr. VOLKAN HANCI",
+        "designation": "Associate Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "vhanci@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 45,
+        "name": "Doç. Dr. ÖZLEM ERSOYLU",
+        "designation": "Associate Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "ozlem.ersoylu@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 46,
+        "name": "Dr. Öğr. Üyesi TUĞBA GÜNAL",
+        "designation": "Assistant Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "tugba.gunal@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 47,
+        "name": "Dr. Öğr. Üyesi SİBEL GÖKSUN",
+        "designation": "Assistant Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "sibel.goksun@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 48,
+        "name": "Dr. Öğr. Üyesi ELİF BÜŞRA KESKİN",
+        "designation": "Assistant Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "elif.keskin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 49,
+        "name": "Dr. Öğr. Üyesi HÜSEYİN ALİ TÖZ",
+        "designation": "Assistant Professor",
+        "department": "Anesthesiology and Reanimation",
+        "email": "ali.toz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 50,
+        "name": "Prof. Dr. GÜLŞEN EKİNGEN YILDIZ",
+        "designation": "Head of Department",
+        "department": "Pediatric Surgery",
+        "email": "gulsen.yildiz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 51,
+        "name": "Doç. Dr. BERNA HALKÇI",
+        "designation": "Associate Professor",
+        "department": "Pediatric Surgery",
+        "email": "berna.halkci@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 52,
+        "name": "Dr. Öğr. Üyesi ARİFE DİLEK İÇLİ",
+        "designation": "Assistant Professor",
+        "department": "Pediatric Surgery",
+        "email": "dilek.icli@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 53,
+        "name": "Prof. Dr. SALİH TOPÇU",
+        "designation": "Head of Department",
+        "department": "Thoracic Surgery",
+        "email": "salih.topcu@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 54,
+        "name": "Doç. Dr. CÜNEYT KURUR",
+        "designation": "Associate Professor",
+        "department": "Thoracic Surgery",
+        "email": "cuneytkurur@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 55,
+        "name": "Dr. Öğr. Üyesi MEHMET FATİH KÜÇÜK",
+        "designation": "Assistant Professor",
+        "department": "Thoracic Surgery",
+        "email": "fatih.kucuk@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 56,
+        "name": "Prof. Dr. AYDIN ÇORAKÇI",
+        "designation": "Head of Department",
+        "department": "Gynecology and Obstetrics",
+        "email": "corakci@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 57,
+        "name": "Prof. Dr. EMEK DOĞER",
+        "designation": "Professor",
+        "department": "Gynecology and Obstetrics",
+        "email": "emek.doger@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 58,
+        "name": "Doç. Dr. ÖZGE SENEM YÜCEL ÇİÇEK",
+        "designation": "Associate Professor",
+        "department": "Gynecology and Obstetrics",
+        "email": "ozge.yucelcicek@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 59,
+        "name": "Doç. Dr. ŞENER GEZER",
+        "designation": "Associate Professor",
+        "department": "Gynecology and Obstetrics",
+        "email": "sener.gezer@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 60,
+        "name": "Dr. Öğr. Üyesi HAYAL UZELLİ ŞİMŞEK",
+        "designation": "Assistant Professor",
+        "department": "Gynecology and Obstetrics",
+        "email": "hayal.simsek@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 61,
+        "name": "Dr. Öğr. Üyesi YASEMİN DOĞAN",
+        "designation": "Assistant Professor",
+        "department": "Gynecology and Obstetrics",
+        "email": "yasemin.dogan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 62,
+        "name": "Prof. Dr. MURAT ÖZTÜRK",
+        "designation": "Head of Department",
+        "department": "Otorhinolaryngology",
+        "email": "muratozturk@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 63,
+        "name": "Doç. Dr. FATİH MUTLU",
+        "designation": "Associate Professor",
+        "department": "Otorhinolaryngology",
+        "email": "fatih.mutlu@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 64,
+        "name": "Doç. Dr. SEHER ŞİRİN",
+        "designation": "Associate Professor",
+        "department": "Otorhinolaryngology",
+        "email": "seher.sirin@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 65,
+        "name": "Dr. Öğr. Üyesi HASAN MERVAN DEĞER",
+        "designation": "Assistant Professor",
+        "department": "Otorhinolaryngology",
+        "email": "mervan.deger@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 66,
+        "name": "Dr. Öğr. Üyesi ATILAY YAYLACI",
+        "designation": "Assistant Professor",
+        "department": "Otorhinolaryngology",
+        "email": "atilay.yaylaci@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 67,
+        "name": "Dr. Öğr. Üyesi ATA ALPEREN ERŞAHAN",
+        "designation": "Assistant Professor",
+        "department": "Otorhinolaryngology",
+        "email": "ata.ersahan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 68,
+        "name": "Öğr. Gör. MERVE DURGUT",
+        "designation": "Instructor",
+        "department": "Otorhinolaryngology",
+        "email": "merve.durgut@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 69,
+        "name": "Prof. Dr. ÇİĞDEM VURAL",
+        "designation": "Head of Department",
+        "department": "Medical Pathology",
+        "email": "cigdem.vural@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 70,
+        "name": "Doç. Dr. BÜŞRA YAPRAK BAYRAK",
+        "designation": "Associate Professor",
+        "department": "Medical Pathology",
+        "email": "busra.yaprakbayrak@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 71,
+        "name": "Doç. Dr. SEDA DUMAN ÖZTÜRK",
+        "designation": "Associate Professor",
+        "department": "Medical Pathology",
+        "email": "seda.duman@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 72,
+        "name": "Dr. Öğr. Üyesi BÜŞRA ÖZBEK",
+        "designation": "Assistant Professor",
+        "department": "Medical Pathology",
+        "email": "busra.ozbek@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 73,
+        "name": "Dr. Öğr. Üyesi BAHAR MEMİŞ",
+        "designation": "Assistant Professor",
+        "department": "Medical Pathology",
+        "email": "bahar.memis@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 74,
+        "name": "Dr. Öğr. Üyesi GAMZE KAVAS",
+        "designation": "Assistant Professor",
+        "department": "Medical Pathology",
+        "email": "gamze.kavas@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 75,
+        "name": "Dr. Öğr. Üyesi AZİZ HAKKI CİVRİZ",
+        "designation": "Assistant Professor",
+        "department": "Medical Pathology",
+        "email": "aziz.civriz@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 76,
+        "name": "Prof. Dr. METİN AYDOĞAN",
+        "designation": "Head of Department",
+        "department": "Pediatrics",
+        "email": "metin.aydogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 77,
+        "name": "Prof. Dr. AYLA GÜNLEMEZ",
+        "designation": "Professor (Neonatology)",
+        "department": "Pediatrics",
+        "email": "ayla.gunlemez@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 78,
+        "name": "Doç. Dr. ÖZGE SERÇE PEHLEVAN",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "ozge.serce@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 79,
+        "name": "Doç. Dr. ÖZLEM BOZKURT",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "ozlem.bozkurt@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 80,
+        "name": "Prof. Dr. FİLİZ MİNE ÇİZMECİOĞLU JONES",
+        "designation": "Professor (Endocrinology)",
+        "department": "Pediatrics",
+        "email": "filiz.cizmecioglu@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 81,
+        "name": "Dr. Öğr. Üyesi GÜRKAN TARÇIN",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "gurkan.tarcin@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 82,
+        "name": "Prof. Dr. SELİM ÖNCEL",
+        "designation": "Professor (Infectious Diseases)",
+        "department": "Pediatrics",
+        "email": "Selim.Oncel@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 83,
+        "name": "Prof. Dr. EMİNE ZENGİN",
+        "designation": "Professor (Hematology)",
+        "department": "Pediatrics",
+        "email": "emine.zengin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 84,
+        "name": "Prof. Dr. KENAN BEK",
+        "designation": "Professor (Nephrology)",
+        "department": "Pediatrics",
+        "email": "kenan.bek@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 85,
+        "name": "Dr. Öğr. Üyesi MEHMET BAHA AYTAÇ",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "mehmetbaha.aytac@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 86,
+        "name": "Dr. Öğr. Üyesi KENAN DOĞAN",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "kenan.dogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 87,
+        "name": "Doç. Dr. UĞUR DEMİRSOY",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "ugur.demirsoy@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 88,
+        "name": "Prof. Dr. ABDULKADIR BABAOĞLU",
+        "designation": "Professor (Cardiology)",
+        "department": "Pediatrics",
+        "email": "abdulkadirb@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 89,
+        "name": "Doç. Dr. EVİÇ ZEYNEP AKGÜN",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "evic.akgun@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 90,
+        "name": "Doç. Dr. MUSTAFA DOĞAN",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "mustafa.dogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 91,
+        "name": "Doç. Dr. IŞIL ESER ŞİMŞEK",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "isil.esersimsek@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 92,
+        "name": "Prof. Dr. BÜLENT KARA",
+        "designation": "Professor (Neurology)",
+        "department": "Pediatrics",
+        "email": "bulent.kara@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 93,
+        "name": "Doç. Dr. LEMAN TEKİN ORGUN",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "leman.orgun@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 94,
+        "name": "Dr. Öğr. Üyesi AYFER SAKARYA GÜNEŞ",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "ayfer.gunes@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 95,
+        "name": "Prof. Dr. AYŞEN UNCUOĞLU",
+        "designation": "Professor (Gastroenterology)",
+        "department": "Pediatrics",
+        "email": "aysen.aydogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 96,
+        "name": "Dr. Öğr. Üyesi NİHAL UYAR AKSU",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "nihal.uyar@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 97,
+        "name": "Prof. Dr. HAFİZE EMİNE SÖNMEZ",
+        "designation": "Professor (Rheumatology)",
+        "department": "Pediatrics",
+        "email": "emine.sonmez@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 98,
+        "name": "Doç. Dr. NİHAL ŞAHİN",
+        "designation": "Associate Professor",
+        "department": "Pediatrics",
+        "email": "nihal.sahin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 99,
+        "name": "Prof. Dr. ÖZLEM ÜNAL UZUN",
+        "designation": "Professor (Metabolism)",
+        "department": "Pediatrics",
+        "email": "ozlem.unaluzun@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 100,
+        "name": "Dr. Öğr. Üyesi NİCEL YILDIZ SİLAHLI",
+        "designation": "Assistant Professor",
+        "department": "Pediatrics",
+        "email": "nicel.silahli@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 101,
+        "name": "Prof. Dr. BAŞAR ÇOLAK",
+        "designation": "Head of Department",
+        "department": "Forensic Medicine",
+        "email": "basarcolak@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 102,
+        "name": "Dr. Öğr. Üyesi CEMİL ÇELİK",
+        "designation": "Assistant Professor",
+        "department": "Forensic Medicine",
+        "email": "cemil.celik@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 103,
+        "name": "Prof. Dr. AYSUN ŞİKAR AKTÜRK",
+        "designation": "Professor",
+        "department": "Dermatology",
+        "email": "aysuns@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 104,
+        "name": "Prof. Dr. DİLEK BAYRAMGÜRLER",
+        "designation": "Professor",
+        "department": "Dermatology",
+        "email": "dbayramgurler@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 105,
+        "name": "Prof. Dr. REBİAY KIRAN",
+        "designation": "Professor",
+        "department": "Dermatology",
+        "email": "rebiay@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 106,
+        "name": "Prof. Dr. NİLGÜN SAYMAN",
+        "designation": "Professor",
+        "department": "Dermatology",
+        "email": "nilbilen@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 107,
+        "name": "Prof. Dr. EVREN ODYAKMAZ DEMİRSOY",
+        "designation": "Professor",
+        "department": "Dermatology",
+        "email": "evren.odyakmaz@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 108,
+        "name": "Doç. Dr. ABDULLAH DEMİRBAŞ",
+        "designation": "Associate Professor",
+        "department": "Dermatology",
+        "email": "abdullah.demirbas@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Thursday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 109,
+        "name": "Prof. Dr. NİGAR DURSUN",
+        "designation": "Head of Department",
+        "department": "Physical Medicine",
+        "email": "nigard@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 110,
+        "name": "Prof. Dr. ERBİL DURSUN",
+        "designation": "Professor",
+        "department": "Physical Medicine",
+        "email": "erbild@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 111,
+        "name": "Doç. Dr. SELİME ILGIN SADE",
+        "designation": "Associate Professor",
+        "department": "Physical Medicine",
+        "email": "ilgin.sade@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 112,
+        "name": "Dr. Öğr. Üyesi TUĞBA GÖKBEL",
+        "designation": "Assistant Professor",
+        "department": "Physical Medicine",
+        "email": "tugba.gokbel@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 113,
+        "name": "Prof. Dr. ÇİĞDEM ÇAĞLAYAN",
+        "designation": "Head of Department",
+        "department": "Public Health",
+        "email": "ccaglayan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 114,
+        "name": "Dr. Öğr. Üyesi MELİKE YAVUZ",
+        "designation": "Associate Professor",
+        "department": "Public Health",
+        "email": "melike.yavuz@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 115,
+        "name": "Dr. Öğr. Üyesi AHMET ALP AKER",
+        "designation": "Assistant Professor",
+        "department": "Public Health",
+        "email": "alp.aker@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 116,
+        "name": "Prof. Dr. BERRİN ARSLAN",
+        "designation": "Head of Department",
+        "department": "Internal Medicine",
+        "email": "barslan@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 117,
+        "name": "Prof. Dr. ZEYNEP CANTÜRK",
+        "designation": "Professor (Endocrinology)",
+        "department": "Internal Medicine",
+        "email": "zeynepcanturk@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 118,
+        "name": "Prof. Dr. ALEV SELEK",
+        "designation": "Professor (Endocrinology)",
+        "department": "Internal Medicine",
+        "email": "alev.selek@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 119,
+        "name": "Dr. Öğr. Üyesi EMRE GEZER",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "emre.gezer@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 120,
+        "name": "Dr. Öğr. Üyesi MEHMET SÖZEN",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "mehmet.sozen@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 121,
+        "name": "Prof. Dr. ALTAY ÇELEBİ",
+        "designation": "Professor (Gastroenterology)",
+        "department": "Internal Medicine",
+        "email": "altaycelebi@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 122,
+        "name": "Doç. Dr. GÖKTUĞ ŞİRİN",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "goktug.sirin@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 123,
+        "name": "Doç. Dr. ALİ ERKAN DUMAN",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "alierkan.duman@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 124,
+        "name": "Doç. Dr. HASAN YILMAZ",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "hasan.yilmaz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 125,
+        "name": "Dr. Öğr. Üyesi AYÇA EROĞLU HAKTANIR",
+        "designation": "Assistant Professor",
+        "department": "Internal Medicine",
+        "email": "ayca.haktanir@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 126,
+        "name": "Prof. Dr. ERKAN DERVİŞOĞLU",
+        "designation": "Professor (Nephrology)",
+        "department": "Internal Medicine",
+        "email": "erkan.dervisoglu@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 127,
+        "name": "Doç. Dr. NECMİ EREN",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "necmi.eren@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 128,
+        "name": "Dr. Öğr. Üyesi SİBEL GÖKÇAY BEK",
+        "designation": "Assistant Professor",
+        "department": "Internal Medicine",
+        "email": "sibel.bek@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 129,
+        "name": "Dr. Öğr. Üyesi METİN ERGÜL",
+        "designation": "Assistant Professor",
+        "department": "Internal Medicine",
+        "email": "metin.ergul@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 130,
+        "name": "Prof. Dr. ABDULLAH HACİHANİFİOĞLU",
+        "designation": "Professor (Hematology)",
+        "department": "Internal Medicine",
+        "email": "a.hanefioglu@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 131,
+        "name": "Prof. Dr. PINAR TARKUN",
+        "designation": "Professor (Hematology)",
+        "department": "Internal Medicine",
+        "email": "pinar.tarkun@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 132,
+        "name": "Prof. Dr. ÖZGÜR MEHTAP",
+        "designation": "Professor (Hematology)",
+        "department": "Internal Medicine",
+        "email": "ozgur.mehtap@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 133,
+        "name": "Doç. Dr. AYFER GEDÜK",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "ayfer.geduk@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 134,
+        "name": "Doç. Dr. ESRA TERZİ DEMİRSOY",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "esra.terzidemirsoy@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 135,
+        "name": "Prof. Dr. KAZIM UYGUN",
+        "designation": "Professor (Oncology)",
+        "department": "Internal Medicine",
+        "email": "kazim.uygun@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 136,
+        "name": "Prof. Dr. UMUT KEFELİ",
+        "designation": "Professor (Oncology)",
+        "department": "Internal Medicine",
+        "email": "umut.kefeli@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 137,
+        "name": "Prof. Dr. DEVRİM ÇABUK",
+        "designation": "Professor (Oncology)",
+        "department": "Internal Medicine",
+        "email": "devrim.cabuk@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 138,
+        "name": "Dr. Öğr. Üyesi YASEMİN BAKKAL TEMİ",
+        "designation": "Assistant Professor",
+        "department": "Internal Medicine",
+        "email": "yasemin.temi@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 139,
+        "name": "Prof. Dr. AYŞE ÇEFLE",
+        "designation": "Professor (Rheumatology)",
+        "department": "Internal Medicine",
+        "email": "ayse.cefle@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 140,
+        "name": "Prof. Dr. AYTEN YAZICI",
+        "designation": "Professor (Rheumatology)",
+        "department": "Internal Medicine",
+        "email": "ayten.yazici@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 141,
+        "name": "Doç. Dr. DUYGU TEMİZ KARADAĞ",
+        "designation": "Associate Professor",
+        "department": "Internal Medicine",
+        "email": "duygu.temiz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 142,
+        "name": "Dr. Öğr. Üyesi ANDAÇ KOMAÇ",
+        "designation": "Assistant Professor",
+        "department": "Internal Medicine",
+        "email": "andac.komac@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 143,
+        "name": "Prof. Dr. HAŞİM BOYACI",
+        "designation": "Head of Department",
+        "department": "Chest Diseases",
+        "email": "hboyaci@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 144,
+        "name": "Prof. Dr. İLKNUR BAŞYİĞİT",
+        "designation": "Professor",
+        "department": "Chest Diseases",
+        "email": "ilknur.basyigit@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 145,
+        "name": "Prof. Dr. SERAP ARGUN BARIŞ",
+        "designation": "Professor",
+        "department": "Chest Diseases",
+        "email": "serap.baris@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 146,
+        "name": "Dr. Öğr. Üyesi TUĞBA ÖNYILMAZ",
+        "designation": "Assistant Professor",
+        "department": "Chest Diseases",
+        "email": "tugba.onyilmaz@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 147,
+        "name": "Dr. Öğr. Üyesi HÜSEYİN KAYA",
+        "designation": "Assistant Professor",
+        "department": "Chest Diseases",
+        "email": "huseyin.kaya@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 148,
+        "name": "Prof. Dr. SILA AKHAN",
+        "designation": "Head of Department",
+        "department": "Microbiology",
+        "email": "sila.akhan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 149,
+        "name": "Dr. Öğr. Üyesi ÖZLEM GÜLER",
+        "designation": "Assistant Professor",
+        "department": "Microbiology",
+        "email": "ozlem.guler@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 150,
+        "name": "Dr. Öğr. Üyesi MÜGE TOYGAR DENİZ",
+        "designation": "Assistant Professor",
+        "department": "Microbiology",
+        "email": "muge.toygardeniz@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 151,
+        "name": "Prof. Dr. TUNCAY ÇOLAK",
+        "designation": "Head of Department",
+        "department": "Anatomy",
+        "email": "tuncayc@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 152,
+        "name": "Prof. Dr. BELGİN BAMAÇ",
+        "designation": "Professor",
+        "department": "Anatomy",
+        "email": "belgin@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 153,
+        "name": "Dr. Öğr. Üyesi AYLA TEKİN",
+        "designation": "Assistant Professor",
+        "department": "Anatomy",
+        "email": "ayla.tekinorha@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 154,
+        "name": "Dr. Öğr. Üyesi ABDULLAH ÖRS",
+        "designation": "Assistant Professor",
+        "department": "Anatomy",
+        "email": "abdullah.ors@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 155,
+        "name": "Dr. Öğr. Üyesi MEHMET DENİZ YENER",
+        "designation": "Assistant Professor",
+        "department": "Anatomy",
+        "email": "deniz.yener@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 156,
+        "name": "Prof. Dr. NURBAY ATEŞ",
+        "designation": "Head of Department",
+        "department": "Physiology",
+        "email": "nates@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 157,
+        "name": "Prof. Dr. DENİZ ŞAHİN",
+        "designation": "Professor",
+        "department": "Physiology",
+        "email": "deniz.sahin@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 158,
+        "name": "Prof. Dr. GÜL İLBAY",
+        "designation": "Professor",
+        "department": "Physiology",
+        "email": "gilbay@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 159,
+        "name": "Prof. Dr. AYŞE KARSON",
+        "designation": "Professor",
+        "department": "Physiology",
+        "email": "ayse.karson@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 160,
+        "name": "Prof. Dr. MELTEM ÖZLEN DİLLİOĞLUGİL",
+        "designation": "Department Chair",
+        "department": "Biochemistry",
+        "email": "meltem.ozden@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 161,
+        "name": "Prof. Dr. HALE MARAL KIR",
+        "designation": "Professor",
+        "department": "Biochemistry",
+        "email": "halemaral@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 162,
+        "name": "Prof. Dr. FATMA CEYLA ERALDEMİR",
+        "designation": "Professor",
+        "department": "Biochemistry",
+        "email": "ceyla.eraldemir@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 163,
+        "name": "Dr. Öğr. Üyesi BERRİN ÖZTAŞ",
+        "designation": "Assistant Professor",
+        "department": "Biochemistry",
+        "email": "berrin.oztas@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 164,
+        "name": "Dr. Öğr. Üyesi FATİH HUNÇ",
+        "designation": "Assistant Professor",
+        "department": "Biochemistry",
+        "email": "fatih.hunc@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 165,
+        "name": "Prof. Dr. AYNUR KARADENİZLİ",
+        "designation": "Department Chair",
+        "department": "Medical Microbiology",
+        "email": "aynurk@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 166,
+        "name": "Prof. Dr. SEMA AŞKIN KEÇELİ",
+        "designation": "Professor",
+        "department": "Medical Microbiology",
+        "email": "sema.keceli@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 167,
+        "name": "Prof. Dr. FETİYE KOLAYLI",
+        "designation": "Professor",
+        "department": "Medical Microbiology",
+        "email": "fkolayli@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 168,
+        "name": "Prof. Dr. ZEKİ YUMUK",
+        "designation": "Professor",
+        "department": "Medical Microbiology",
+        "email": "zyumuk@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 169,
+        "name": "Prof. Dr. DEVRİM DÜNDAR",
+        "designation": "Professor",
+        "department": "Medical Microbiology",
+        "email": "devrimd@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 170,
+        "name": "Dr. Öğr. Üyesi ERDENER BALIKÇI",
+        "designation": "Assistant Professor",
+        "department": "Medical Microbiology",
+        "email": "erdener.balikci@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 171,
+        "name": "Prof. Dr. FATMA BUDAK",
+        "designation": "Professor",
+        "department": "Medical Microbiology",
+        "email": "fatma.budak@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 172,
+        "name": "Dr. Öğr. Üyesi HÜSEYİN UZUNER",
+        "designation": "Assistant Professor",
+        "department": "Medical Microbiology",
+        "email": "huseyin.uzuner@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 173,
+        "name": "Doç. Dr. ASLIHAN AKPINAR",
+        "designation": "Department Chair",
+        "department": "History of Medicine and Ethics",
+        "email": "aslihan.akpinar@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "12:00 PM - 06:00 PM"
+    },
+    {
+        "id": 174,
+        "name": "Prof. Dr. CANAN BAYDEMİR",
+        "designation": "Head of Department",
+        "department": "Biostatistics",
+        "email": "canan.baydemir@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 175,
+        "name": "Dr. Öğr. Üyesi SİBEL BALCİ",
+        "designation": "Associate Professor",
+        "department": "Biostatistics",
+        "email": "sibel.balci@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 176,
+        "name": "Prof. Dr. MELDA YARDIMOĞLU YILMAZ",
+        "designation": "Head of Department",
+        "department": "Histology",
+        "email": "melda@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 177,
+        "name": "Prof. Dr. SERDAR FİLİZ",
+        "designation": "Professor",
+        "department": "Histology",
+        "email": "serdarfiliz@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 178,
+        "name": "Prof. Dr. SÜHEYLA GONCA",
+        "designation": "Professor",
+        "department": "Histology",
+        "email": "suheyla.gonca@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 179,
+        "name": "Prof. Dr. YUSUFHAN YAZIR",
+        "designation": "Professor",
+        "department": "Histology",
+        "email": "yusufhan.yazir@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Tuesday",
+            "Thursday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 180,
+        "name": "Dr. Öğr. Üyesi SELENAY HÜMEYRA FURAT",
+        "designation": "Assistant Professor",
+        "department": "Histology",
+        "email": "selenay.furat@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 181,
+        "name": "Prof. Dr. MURAT KASAP",
+        "designation": "Head of Department",
+        "department": "Medical Biology",
+        "email": "mkasap@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 182,
+        "name": "Prof. Dr. MEHMET DOĞAN GÜLKAÇ",
+        "designation": "Professor",
+        "department": "Medical Biology",
+        "email": "mdgulkac@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 183,
+        "name": "Prof. Dr. EMEL ERGÜL",
+        "designation": "Professor",
+        "department": "Medical Biology",
+        "email": "emel.ergul@kocaeli.edu.tr",
+        "available_days": [
+            "Wednesday",
+            "Saturday",
+            "Sunday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 184,
+        "name": "Prof. Dr. GÜRLER AKPINAR",
+        "designation": "Professor",
+        "department": "Medical Biology",
+        "email": "gurlerak@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Thursday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 185,
+        "name": "Doç. Dr. BANU İSKENDER İZGİ",
+        "designation": "Associate Professor",
+        "department": "Medical Biology",
+        "email": "banu.iskender@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Wednesday",
+            "Saturday"
+        ],
+        "timings": "08:00 AM - 02:00 PM"
+    },
+    {
+        "id": 186,
+        "name": "Dr. Öğr. Üyesi ZEHRA SEDA HALBUTOĞULLARI",
+        "designation": "Assistant Professor",
+        "department": "Medical Biology",
+        "email": "sedahalbutogullari@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "10:00 AM - 04:00 PM"
+    },
+    {
+        "id": 187,
+        "name": "Dr. Öğr. Üyesi CANDAN YILMAZ ÖZDOĞAN",
+        "designation": "Assistant Professor",
+        "department": "Medical Biology",
+        "email": "candan.ozdogan@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Thursday",
+            "Saturday"
+        ],
+        "timings": "02:00 PM - 08:00 PM"
+    },
+    {
+        "id": 188,
+        "name": "Dr. Öğr. Üyesi MEHMET SARIHAN",
+        "designation": "Assistant Professor",
+        "department": "Medical Biology",
+        "email": "mehmet.sarihan@kocaeli.edu.tr",
+        "available_days": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ],
+        "timings": "04:00 PM - 10:00 PM"
+    },
+    {
+        "id": 189,
+        "name": "Dr. Öğr. Üyesi PINAR DAYLAN KOÇKAYA",
+        "designation": "Major Science Chairman",
+        "department": "Medical Education",
+        "email": "pinar.kockaya@kocaeli.edu.tr",
+        "available_days": [
+            "Tuesday",
+            "Friday",
+            "Sunday"
+        ],
+        "timings": "09:00 AM - 03:00 PM"
+    }
+]

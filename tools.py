@@ -1,21 +1,19 @@
 from langchain_community.utilities.sql_database import SQLDatabase
 from langchain_community.agent_toolkits import create_sql_agent
 from langchain_core.tools import create_retriever_tool
-from langchain_pinecone import PineconeVectorStore
-from pinecone import Pinecone
+from langchain_chroma import Chroma
 from langchain.tools import tool
 from llms import llm, embeddings
 import sqlite3
 
 # Retriever Tool
 
-pc = Pinecone()
+persist_directory = "./chroma_db"
 
-index_name = "wellington-grace-hospital-info"
-
-index = pc.Index(index_name)
-
-vector_store = PineconeVectorStore(index=index, embedding=embeddings)
+vector_store = Chroma(
+    persist_directory=persist_directory,
+    embedding_function=embeddings
+)
 
 retriever = vector_store.as_retriever(
     search_type="similarity_score_threshold",
@@ -30,7 +28,7 @@ ask_hospital_info = create_retriever_tool(
 
 # Sql Agent tool
 
-db = SQLDatabase.from_uri('sqlite:///db/hospital.db')
+db = SQLDatabase.from_uri('sqlite:///hospital.db')
 
 gemini_agent_executor = create_sql_agent(
     llm=llm,
@@ -55,7 +53,7 @@ def book_appointment(name: str, contact_info: str, doctor_name: str, date: str, 
     It requires patient's name, contact info, date of birth, doctor's name, date (YYYY-MM-DD), and time (HH:MM in 24hr format).
     """
     try:
-        conn = sqlite3.connect("db/hospital.db")
+        conn = sqlite3.connect("hospital.db")
         cursor = conn.cursor()
 
         # 1. Get or create patient

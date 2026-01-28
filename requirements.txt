@@ -1,9 +1,8 @@
 streamlit
-pinecone
 langchain
 langgraph
-langgraph-groq
-langchain-pinecone
 langchain-community
-langchain-google-genai
+langchain-ollama
+chromadb
+langchain-chroma
 python-dotenv

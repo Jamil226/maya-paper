@@ -4,12 +4,17 @@ from maya_agent import Maya, config
 
 st.set_page_config(page_title="Maya - Hospital Receptionist", page_icon="🏥")
 
-st.title("🏥 Maya - Your Hospital Receptionist")
+st.title("Maya - Your Hospital Receptionist")
 st.write("Ask me about hospital services, departments, doctors, or book an appointment!")
+
+import uuid
 
 # Initialize chat history in Streamlit session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
+    
+if "thread_id" not in st.session_state:
+    st.session_state.thread_id = str(uuid.uuid4())
 
 # Display chat history
 for msg in st.session_state.messages:
@@ -24,11 +29,12 @@ if user_input := st.chat_input("Type your message here..."):
     st.session_state.messages.append({"role": "user", "content": user_input})
     st.chat_message("user").write(user_input)
 
-    # Run Maya
-    result = Maya.invoke(
-        {"messages": [HumanMessage(content=user_input)]},
-        config=config
-    )
+    with st.spinner("Maya is thinking..."):
+        # Run Maya
+        result = Maya.invoke(
+            {"messages": [HumanMessage(content=user_input)]},
+            config={"configurable": {"thread_id": st.session_state.thread_id}}
+        )
 
     ai_response = result["messages"][-1].content
 

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Mehmet Yılmaz",
+        "dob": "14.05.1982",
+        "contact_info": "+90 (532) 123 45 67",
+        "unique_key": "PAT-TR-78A2-BC14"
+    },
+    {
+        "id": 2,
+        "name": "Fatma Kaya",
+        "dob": "22.09.1995",
+        "contact_info": "+90 (541) 987 65 43",
+        "unique_key": "PAT-TR-32F9-KD88"
+    },
+    {
+        "id": 3,
+        "name": "Ahmet Demir",
+        "dob": "03.01.1970",
+        "contact_info": "+90 (533) 445 56 78",
+        "unique_key": "PAT-TR-11G4-MN23"
+    },
+    {
+        "id": 4,
+        "name": "Zeynep Yıldız",
+        "dob": "11.11.2001",
+        "contact_info": "+90 (505) 221 33 44",
+        "unique_key": "PAT-TR-99Z1-LP05"
+    },
+    {
+        "id": 5,
+        "name": "Mustafa Şahin",
+        "dob": "30.06.1988",
+        "contact_info": "+90 (542) 667 88 99",
+        "unique_key": "PAT-TR-45H3-RT91"
+    },
+    {
+        "id": 6,
+        "name": "Ayşe Aydın",
+        "dob": "18.03.1975",
+        "contact_info": "+90 (530) 332 11 00",
+        "unique_key": "PAT-TR-67B2-VW44"
+    },
+    {
+        "id": 7,
+        "name": "Emre Öztürk",
+        "dob": "05.12.1992",
+        "contact_info": "+90 (555) 778 89 90",
+        "unique_key": "PAT-TR-22X8-PQ67"
+    },
+    {
+        "id": 8,
+        "name": "Merve Çelik",
+        "dob": "27.07.1984",
+        "contact_info": "+90 (535) 990 00 11",
+        "unique_key": "PAT-TR-54Y9-SJ12"
+    },
+    {
+        "id": 9,
+        "name": "Caner Özdemir",
+        "dob": "09.02.2005",
+        "contact_info": "+90 (544) 112 23 34",
+        "unique_key": "PAT-TR-81M5-GH38"
+    },
+    {
+        "id": 10,
+        "name": "Elif Aksoy",
+        "dob": "14.08.1963",
+        "contact_info": "+90 (531) 554 44 33",
+        "unique_key": "PAT-TR-03K7-XN59"
+    }
+]

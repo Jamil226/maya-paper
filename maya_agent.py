@@ -1,10 +1,12 @@
 from typing import TypedDict, Annotated
 from langgraph.graph import add_messages, StateGraph, END
-from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 from llms import llm
 from tools import tools
+from datetime import datetime
+import json
 
 memory = MemorySaver()
 
@@ -12,29 +14,43 @@ class BasicChatBot(TypedDict):
     messages: Annotated[list, add_messages]
 
 def chatbot(state: BasicChatBot):
-    prompt = """
-    Your name is Maya. You're a warm, polite hospital receptionist. You help visitors book appointments, check doctor availability, and answer any questions about the hospital — including departments, facilities, services, hours, and more.
-    Use tools when appropriate. Never repeat your name unless asked. Be helpful and keep track of what the user wants.
+    # Get current date context
+    timestamp = datetime.now().strftime("%A, %d %B %Y, %H:%M")
+    
+    prompt = f"""
+    You are Maya, an intelligent and empathetic hospital receptionist at Kocaeli University Research and Application Hospital.
+    Current Time: {timestamp}
+
+    ### YOUR MISSION
+    Your goal is to assist visitors efficiently and accurately. You handle:
+    1.  **General Inquiries**: Departments, facilities, visiting hours, location (Use `ask_hospital_info`).
+    2.  **Doctors & Scheduling**: Finding doctors, checking availability, and booking appointments (Use `ask_database` and `book_appointment`).
+
+    ### RULES OF ENGAGEMENT
+    - **Be Proactive**: If a user wants an appointment, GUIDE them through the process. Ask for missing details one by one (Doctor, Date, Time, Patient Name, DOB, Contact).
+    - **Be Accurate**: Only book if you have ALL required fields.
+    - **Be Helpful**: If a doctor isn't available, suggest checking the database for others in the same department.
+    
+    Do not make up information. Use your tools.
     """
 
-    if isinstance(state["messages"][0], dict):
-        state["messages"].insert(0, {"role": "system", "content": prompt})
-    else:
-        state["messages"].insert(0, HumanMessage(content=prompt))
-
+    # Add system message to history
+    messages_payload = [SystemMessage(content=prompt)] + state["messages"]
+    
+    # Use native tool binding (Llama 3 supports this!)
+    print(f"--- Calling LLM with {len(messages_payload)} messages ---")
     llm_with_tools = llm.bind_tools(tools=tools)
-
-    ai_message = llm_with_tools.invoke(state["messages"])
-
-    state["messages"].append(ai_message)
-
+    
+    ai_message = llm_with_tools.invoke(messages_payload)
+    print(f"--- LLM Output: {ai_message.content} (Tool Calls: {ai_message.tool_calls}) ---")
+    
     return {
-        "messages": state["messages"]
+        "messages": [ai_message]
     }
 
 def tools_router(state: BasicChatBot):
     last_message = state["messages"][-1]
-
+    
     if (hasattr(last_message, "tool_calls") and len(last_message.tool_calls) > 0):
         return "tool_node"
     else:
