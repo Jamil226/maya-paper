@@ -49,11 +49,14 @@ def chatbot(state: BasicChatBot):
     }
 
 def tools_router(state: BasicChatBot):
+    print("--- Entering tools_router ---")
     last_message = state["messages"][-1]
     
     if (hasattr(last_message, "tool_calls") and len(last_message.tool_calls) > 0):
+        print(f"--- Decided to call tool: {last_message.tool_calls} ---")
         return "tool_node"
     else:
+        print("--- Decided to END ---")
         return END
 
 

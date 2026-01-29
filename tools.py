@@ -16,8 +16,8 @@ vector_store = Chroma(
 )
 
 retriever = vector_store.as_retriever(
-    search_type="similarity_score_threshold",
-    search_kwargs={"k": 4, "score_threshold": 0.4},
+    search_type="similarity",
+    search_kwargs={"k": 4},
 )
 
 ask_hospital_info = create_retriever_tool(
