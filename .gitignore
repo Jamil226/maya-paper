@@ -1,4 +1,7 @@
 .env
+.DS_Store
+.github
+project_brief.txt
 venv
 .vscode/
 __pycache__/
