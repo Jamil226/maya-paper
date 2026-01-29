@@ -1,78 +1,107 @@
-# Maya - Hospital Receptionist
+# 🏥 Maya - Agentic Hospital Receptionist
 
-Maya is an intelligent hospital receptionist agent capable of handling general inquiries, checking doctor availability, and booking appointments. It uses a graph-based agent architecture to orchestrate interactions between a local LLM, a vector database for knowledge retrieval, and a SQL database for transactional operations.
+Maya is an intelligent agent designed to handle hospital receptionist duties. Powered by **Llama 3.1** and a graph-based agent architecture (**LangGraph**), Maya orchestrates interactions between a local LLM, a generic knowledge base, and a structured hospital database to help patients efficiently.
 
-## Tech Stack
+## ✨ Key Features
 
-- **Language:** Python
-- **Frameworks:** LangChain, LangGraph
-- **UI:** Streamlit
-- **LLM & Embeddings:** Ollama (Llama 3.1)
-- **Databases:**
-  - SQLite (Relational data for doctors, patients, appointments)
-  - ChromaDB (Vector store for general hospital knowledge)
+- **Conversational Booking**: engage in natural dialogue to book appointments.
+- **RAG-Powered Knowledge**: Answers general questions (visiting hours, locations) using vector search over hospital documents.
+- **SQL Integration**: Queries real-time doctor availability and patient records.
+- **Stateful Memory**: Remembers context across the conversation.
+- **Privacy-First**: Runs entirely locally using Ollama.
 
-## Features
+## 🛠️ Tech Stack
 
-- **Conversation History:** Remembers context within a session using memory capability.
-- **Tool Usage:** Dynamically chooses tools to look up information (RAG/SQL) or perform actions (booking).
-- **Hybrid Data Access:** Combines unstructured data search (vector DB) with structured data queries (SQL DB).
-- **Local LLM Execution:** Runs completely locally using Ollama.
+- **Agent Framework**: LangChain & LangGraph
+- **LLM**: Ollama (Llama 3.1)
+- **Vector Store**: ChromaDB
+- **Database**: SQLite
+- **Interface**: Streamlit (Web) & Python Console
 
-## Project Structure
+## 📂 Project Structure
 
-### Core Application
+```bash
+├── main.py                # Streamlit web application entry point
+├── console_app.py         # Terminal-based chat interface for testing
+├── maya_agent.py          # Core agent logic, graph definition, and state management
+├── tools.py               # Tool definitions (RAG, SQL, Booking)
+├── llms.py                # LLM and Embedding configuration
+├── db_handler.py          # Database schema and initialization logic
+├── rag_info.py            # Script to ingest knowledge base into ChromaDB
+├── setup.py               # Utility to initialize the SQLite database
+├── update_doctors.py      # Seed script for doctor data
+├── update_patients.py     # Seed script for patient data
+├── hospital.db            # Local SQLite database (generated)
+├── chroma_db/             # Local Vector store (generated)
+└── requirements.txt       # Project dependencies
+```
 
-- **`main.py`**: The Streamlit web application. Manages the chat interface, session state, and invokes the Maya agent.
-- **`console_app.py`**: A simple console-based script to test the agent's functionality without the web UI.
+## 🚀 Getting Started
 
-### Agent Logic
+### Prerequisites
 
-- **`maya_agent.py`**: Implements the agent using LangGraph (`StateGraph`). Defines the chatbot node, tool routing, and memory persistence.
-- **`tools.py`**: Defines access to:
-  - `ask_hospital_info`: RAG tool (ChromaDB) for general questions.
-  - `ask_database`: SQL agent tool (SQLite) for structured data (doctors, schedules).
-  - `book_appointment`: Transactional tool to create appointments.
-- **`llms.py`**: Configures `ChatOllama` and `OllamaEmbeddings` (Llama 3.1).
+- Python 3.9+
+- [Ollama](https://ollama.com/) installed and running.
 
-### Data Management
+### 1. Installation
 
-- **`rag_info.py`**: Ingests data from `knowledge_base.json` into the local ChromaDB vector store.
-- **`db_handler.py`**: Initializes the SQLite database and defines table schemas (`doctors`, `patients`, `appointments`).
-- **`setup.py`**: Scripts to set up the environment/database.
-- **Data Files**:
-  - `knowledge_base.json`: Source text for RAG.
-  - `doctors_info.json`, `pseudo_patients_info.json`: Initial seed data for the database.
-  - `update_doctors.py`, `update_patients.py`: Scripts to populate the database.
+Clone the repository and install Python dependencies:
 
-## Setup & Running
+```bash
+pip install -r requirements.txt
+```
 
-1. **Install Dependencies**
+Pull the required LLM model:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+ollama pull llama3.1
+```
 
-2. **Install Ollama**
-   Ensure you have [Ollama](https://ollama.com/) installed and the llama3.1 model pulled:
+### 2. Database Setup
 
-   ```bash
-   ollama pull llama3.1
-   ```
+Initialize the structured database and the vector store:
 
-3. **Initialize Databases**
-   Run the setup scripts to prepare the SQLite and ChromaDB data:
+```bash
+# Initialize SQLite DB schema
+python setup.py
 
-   ```bash
-   python setup.py
-   python rag_info.py
-   # Populate SQLite data if needed
-   python update_doctors.py
-   python update_patients.py
-   ```
+# Ingest Knowledge Base into ChromaDB (RAG)
+python rag_info.py
+```
 
-4. **Run the Application**
-   Start the Streamlit interface:
-   ```bash
-   streamlit run main.py
-   ```
+Populate the database with sample data:
+
+```bash
+python update_doctors.py
+python update_patients.py
+```
+
+### 3. Running the Agent
+
+**Option A: Web Assistant (Recommended)**
+Launch the Streamlit interface:
+
+```bash
+streamlit run main.py
+```
+
+**Option B: Console Mode**
+Run a quick test in the terminal:
+
+```bash
+python console_app.py
+```
+
+## 💡 Capabilities
+
+Maya is equipped with specific tools to handle different requests:
+
+| Intent                    | Tool Used           | Description                               |
+| ------------------------- | ------------------- | ----------------------------------------- |
+| "Where is cardiology?"    | `ask_hospital_info` | Retrieves static info from ChromaDB.      |
+| "Is Dr. Smith available?" | `ask_database`      | SQL query to `hospital.db` for schedules. |
+| "Book an appointment."    | `book_appointment`  | Transactional write to the database.      |
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.

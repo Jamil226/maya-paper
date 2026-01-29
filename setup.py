@@ -1,5 +1,6 @@
-from backend.db_handler import init_db
+from db_handler import init_db
 
-
-DB_PATH = "db/hospital.db"
-init_db(DB_PATH)    
+DB_PATH = "hospital.db"
+if __name__ == "__main__":
+    init_db(DB_PATH)
+    print(f"Database initialized at {DB_PATH}")
