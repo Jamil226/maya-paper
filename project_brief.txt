@@ -1,0 +1,53 @@
+Project Name: Maya - Hospital Receptionist
+
+Overview:
+Maya is an intelligent hospital receptionist agent capable of handling general inquiries, checking doctor availability, and booking appointments. It uses a graph-based agent architecture to orchestrate interactions between a local LLM, a vector database for knowledge retrieval, and a SQL database for transactional operations.
+
+Tech Stack:
+- Language: Python
+- Frameworks: LangChain, LangGraph
+- UI: Streamlit
+- LLM & Embeddings: Ollama (Llama 3.1)
+- Databases: 
+  - SQLite (Relational data for doctors, patients, appointments)
+  - ChromaDB (Vector store for general hospital knowledge)
+
+Modules Description:
+1. main.py:
+   - Contains the Streamlit application code.
+   - Manages the chat interface, session state, and invokes the Maya agent.
+
+2. maya_agent.py:
+   - Implements the agent using LangGraph (`StateGraph`).
+   - Defines the `chatbot` node which prompts the LLM with a system message and the current conversation state.
+   - Includes a `tools_router` to decide whether to call a tool or end the turn.
+   - Uses `MemorySaver` for persisting conversation history within a thread.
+
+3. tools.py:
+   - Defines the tools available to the agent:
+     - `ask_hospital_info`: A RAG tool that retrieves documents from ChromaDB to answer general questions (location, services, etc.).
+     - `ask_database`: A SQL agent tool that queries the `hospital.db` SQLite database for structured data like doctor schedules and patient records.
+     - `book_appointment`: A custom function to insert new appointment records into the SQLite database, handling patient creation if necessary.
+
+4. llms.py:
+   - Configures the `ChatOllama` LLM and `OllamaEmbeddings`, both using the `llama3.1` model.
+
+5. rag_info.py:
+   - A script to ingest data from `knowledge_base.json` into the local ChromaDB vector store.
+   - Uses `RecursiveCharacterTextSplitter` for chunking.
+
+6. db_handler.py:
+   - Handles the initialization of the SQLite database (`hospital.db`).
+   - Defines the schema for `doctors`, `patients`, and `appointments` tables.
+
+7. console_app.py:
+   - A simple console-based script to test the agent's functionality without the web UI.
+
+8. Data Files:
+   - `knowledge_base.json`: Source text data for the RAG system.
+   - `doctors_info.json` & `pseudo_patients_info.json`: likely source data used to populate the initial database (via `update_doctors.py` and `update_patients.py`).
+
+Key Features:
+- Conversation History: Remembers context within a session.
+- Tool Usage: Can dynamically choose to look up information or perform an action (booking).
+- Hybrid Data Access: Combines unstructured data search (vector DB) with structured data queries (SQL DB).

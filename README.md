@@ -1,142 +1,78 @@
-# 🏥 Maya — Agentic AI Hospital Receptionist
+# Maya - Hospital Receptionist
 
-Maya is a conversational, goal-oriented AI system designed to automate the front-desk responsibilities of a hospital receptionist. Built using modern agentic AI patterns, Maya can answer hospital FAQs, check doctor availability, and book appointments through natural language dialogue while remaining grounded in structured hospital data.
+Maya is an intelligent hospital receptionist agent capable of handling general inquiries, checking doctor availability, and booking appointments. It uses a graph-based agent architecture to orchestrate interactions between a local LLM, a vector database for knowledge retrieval, and a SQL database for transactional operations.
 
-This project demonstrates how a **single-agent, tool-augmented LLM** can reliably handle real-world administrative workflows in healthcare without the complexity of multi-agent orchestration.
+## Tech Stack
 
----
+- **Language:** Python
+- **Frameworks:** LangChain, LangGraph
+- **UI:** Streamlit
+- **LLM & Embeddings:** Ollama (Llama 3.1)
+- **Databases:**
+  - SQLite (Relational data for doctors, patients, appointments)
+  - ChromaDB (Vector store for general hospital knowledge)
 
-## ✨ Key Features
+## Features
 
-- **Conversational Appointment Booking**  
-  Collects patient details and schedules appointments via natural dialogue.
+- **Conversation History:** Remembers context within a session using memory capability.
+- **Tool Usage:** Dynamically chooses tools to look up information (RAG/SQL) or perform actions (booking).
+- **Hybrid Data Access:** Combines unstructured data search (vector DB) with structured data queries (SQL DB).
+- **Local LLM Execution:** Runs completely locally using Ollama.
 
-- **Doctor Availability & Scheduling**  
-  Queries structured hospital databases to provide accurate availability information.
+## Project Structure
 
-- **Hospital FAQs via RAG**  
-  Answers questions about departments, services, visiting hours, facilities, and more using retrieval-augmented generation.
+### Core Application
 
-- **Goal-Oriented Reasoning (ReAct)**  
-  Each user request is treated as a goal and solved through iterative Reason → Act → Observe steps.
+- **`main.py`**: The Streamlit web application. Manages the chat interface, session state, and invokes the Maya agent.
+- **`console_app.py`**: A simple console-based script to test the agent's functionality without the web UI.
 
-- **Persistent Multi-Turn Memory**  
-  Conversation context is preserved across turns using session-based memory.
+### Agent Logic
 
-- **Low-Complexity, High-Reliability Design**  
-  A single-agent architecture with deterministic tools reduces failure modes compared to multi-agent systems.
+- **`maya_agent.py`**: Implements the agent using LangGraph (`StateGraph`). Defines the chatbot node, tool routing, and memory persistence.
+- **`tools.py`**: Defines access to:
+  - `ask_hospital_info`: RAG tool (ChromaDB) for general questions.
+  - `ask_database`: SQL agent tool (SQLite) for structured data (doctors, schedules).
+  - `book_appointment`: Transactional tool to create appointments.
+- **`llms.py`**: Configures `ChatOllama` and `OllamaEmbeddings` (Llama 3.1).
 
----
+### Data Management
 
-## 🧠 System Architecture
+- **`rag_info.py`**: Ingests data from `knowledge_base.json` into the local ChromaDB vector store.
+- **`db_handler.py`**: Initializes the SQLite database and defines table schemas (`doctors`, `patients`, `appointments`).
+- **`setup.py`**: Scripts to set up the environment/database.
+- **Data Files**:
+  - `knowledge_base.json`: Source text for RAG.
+  - `doctors_info.json`, `pseudo_patients_info.json`: Initial seed data for the database.
+  - `update_doctors.py`, `update_patients.py`: Scripts to populate the database.
 
-Maya is implemented as a **stateful agent graph** using LangGraph:
+## Setup & Running
 
-- **LLM Reasoning Layer**  
-  Interprets user intent and decides when to call tools.
+1. **Install Dependencies**
 
-- **Tool Layer**
-  - SQL database access for doctors, patients, and appointments  
-  - Vector search (Pinecone) for hospital knowledge  
-  - Deterministic appointment booking logic  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- **Memory Layer**  
-  Stores dialogue history for coherent multi-turn interactions.
+2. **Install Ollama**
+   Ensure you have [Ollama](https://ollama.com/) installed and the llama3.1 model pulled:
 
-This separation ensures that responses remain **context-aware, fluent, and factually grounded**.
+   ```bash
+   ollama pull llama3.1
+   ```
 
----
+3. **Initialize Databases**
+   Run the setup scripts to prepare the SQLite and ChromaDB data:
 
-## 🛠️ Tech Stack
+   ```bash
+   python setup.py
+   python rag_info.py
+   # Populate SQLite data if needed
+   python update_doctors.py
+   python update_patients.py
+   ```
 
-- **Frontend**: Streamlit  
-- **LLM**: Google Gemini (via LangChain)  
-- **Agent Framework**: LangGraph  
-- **RAG**: Pinecone + LangChain Retriever Tools  
-- **Database**: SQLite  
-- **Embeddings**: Google Generative AI Embeddings  
-
----
-
-## 📁 Project Structure
-
-```
-.
-├── main.py
-├── maya_agent.py
-├── tools.py
-├── llms.py
-├── ingest_RAG_info.py
-├── setup.py
-├── data/
-│   └── hospital_info.txt
-├── backend/
-│   ├── db_handler.py
-│   └── doc_handler.py
-└── db/
-    └── hospital.db
-```
-
----
-
-## 🚀 Getting Started
-
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Set Environment Variables
-Create a `.env` file:
-```env
-GOOGLE_API_KEY=your_key_here
-PINECONE_API_KEY=your_key_here
-```
-
-### 3. Initialize the Database
-```bash
-python setup.py
-python backend/doc_handler.py
-```
-
-### 4. Ingest Hospital Knowledge (RAG)
-```bash
-python ingest_RAG_info.py
-```
-
-### 5. Run the Application
-```bash
-streamlit run main.py
-```
-
----
-
-## 💬 Example Queries
-
-- “What departments does the hospital have?”
-- “Is Dr. Charlotte Reeves available on Friday?”
-- “Book an appointment with a cardiologist next Tuesday at 10am.”
-- “Where is the emergency department located?”
-
----
-
-## 📊 Design Rationale
-
-Maya uses a **single-agent, tool-augmented design** rather than a multi-agent system. This approach reduces orchestration complexity, improves reliability, and ensures deterministic control over sensitive operations such as appointment booking.
-
----
-
-## ⚠️ Limitations & Future Work
-
-- No authentication or role-based access control  
-- Limited to a single hospital schema  
-- No conflict resolution for overlapping appointments  
-- Scenario-based evaluation only  
-
-Future work may include calendar integrations, patient portals, multilingual support, and advanced analytics.
-
----
-
-## 📚 Research Context
-
-This project strongly aligns with current research in conversational AI for healthcare administration, ReAct-style reasoning, agentic workflows using state graphs, and practical scalable alternatives to complex multi-agent systems.
+4. **Run the Application**
+   Start the Streamlit interface:
+   ```bash
+   streamlit run main.py
+   ```
